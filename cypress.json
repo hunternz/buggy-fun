@@ -1,0 +1,12 @@
+{
+    "viewportWidth": 1440,
+    "viewportHeight": 1000,
+    "chromeWebSecurity": false,
+    "defaultCommandTimeout": 3000,
+    "responseTimeout": 3000,
+    "pageLoadTimeout": 3000,
+    "baseUrl": "https://buggy.justtestit.org",
+    "reporter": "cypress-mochawesome-reporter",
+    "screenshotsFolder": "../cypress/images",
+    "video": true
+}

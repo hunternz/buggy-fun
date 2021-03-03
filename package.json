@@ -1,0 +1,27 @@
+{
+  "name": "buggy-fun",
+  "version": "1.0.0",
+  "description": "Let's have some fun with bug hunting :)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cypress:run": "cypress run",
+    "cypress:report": "generate-mochawesome-report",
+    "test-and-report": "npm run cypress:run ; npm run cypress:report"
+  },
+  "keywords": [
+    "buggy",
+    "automation",
+    "testing",
+    "cypress"
+  ],
+  "author": "Hunter Ye",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^6.6.0"
+  },
+  "devDependencies": {
+    "cypress-mochawesome-reporter": "^1.3.0",
+    "mochawesome": "^6.2.2"
+  }
+}
