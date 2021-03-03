@@ -3,7 +3,7 @@ This is a demo testing project for https://buggy.justtestit.org.
 
 It includes exploratory testing and automation testing.
 
-For the outcome of exploratory testing, please refer to the bug report: 
+For the outcome of exploratory testing, please refer to the [Bug Report](https://github.com/hunternz/buggy-fun/blob/main/BugReport.md)
 
 For automation testing, it uses Cypress + Javascript as the solution. For how to run the tests and review the test report please refer to the details below.
 
