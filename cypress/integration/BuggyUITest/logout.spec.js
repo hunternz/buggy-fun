@@ -2,7 +2,7 @@
 
 import testdata from "../../fixtures/testdata.json"
 
-context('Login Test', () => {        
+context('Logout Test', () => {        
     beforeEach(() => { 
       cy.signInWithAPI(testdata.username, testdata.password)
       cy.visit('/')
