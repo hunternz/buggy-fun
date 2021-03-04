@@ -41,7 +41,7 @@ npx cypress verify
 ```
 npx cypress open
 ```
-#### In the Cypress Test Running, select Chrome as the browser then click "Run 5 integration specs" to launch a Chrome window and run all the tests
+#### In the Cypress Test Runner, select Chrome as the browser then click "Run 5 integration specs" to launch a Chrome window to run all the tests
 ![alt text](https://github.com/hunternz/buggy-fun/blob/main/src/images/CypressTestRunner.png "Cypress Test Runner")
 
 #### Check test result when all tests complete running
