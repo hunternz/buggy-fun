@@ -27,16 +27,16 @@
 ### Foreword
 This website is just like a fascinating puzzle game and it makes QAs (especially me) obsessed. I spent a lot of time investigating the root cause of the bugs and prioritizing the severity, and that's why it took more time than I expected.
 ### Bug #1
-#### Title: On the model page, the Author column will display empty value when the number of comment reaching 100 
+#### Title: On the model page, the Author column will display empty value when the number of comments reaching 101 
 #### Description
-I found this bug by running a Cypress automation test to add lots of comments, then I compared the response of the models endpoint and found the value of `comments.user` was missing and there was a new array for `comments` created when the amount of comment reaching 100, then I used the Cypress test created 99 comment and manually added 1 more, Boom, the magic nubmer 100 was confirmed.
+I found this bug by running a Cypress automation test to add lots of comments, then I compared the response of the models endpoint and found the value of `comments.user` was missing and there was a new array for `comments` created when the amount of comments reaching 101, then I used the Cypress test created 100 comments and manually added 1 more, Boom, the magic nubmer 101 was confirmed.
 #### Steps
 1. Open the page https://buggy.justtestit.org/model/c0bm09jgagshpkqbsuq0%7Cc0bm09jgagshpkqbsurg
 2. Check the Author column in the comment table
 #### Expected Result
 The Author column should show First Name and Last Name of the users
 #### Actual Result
-The Author column shows nothing for all the comment
+The Author column shows nothing for all the comments
 #### Screenshot
 ![alt text](https://github.com/hunternz/buggy-fun/blob/main/src/images/bug1-1.png "Author missing on model page")
 
