@@ -10,8 +10,8 @@ For automation testing, it uses Cypress + Javascript as the solution. For how to
 # Cypress Solution
 
 ## Prerequisites
-* node.js: go to https://nodejs.org/en/download/ and install the latest LTS version
-* git: go to https://git-scm.com/downloads/ and install the latest version
+* **node.js:** go to https://nodejs.org/en/download/ and install the latest LTS version
+* **git:** go to https://git-scm.com/downloads/ and install the latest version
 ## Git clone this repo to local directory
 ```
 cd /yourusername/projects
