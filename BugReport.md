@@ -25,7 +25,7 @@
 
 ## Bug Report
 ### Foreword
-This website is just like a puzzle game and it makes QAs (especially me) obsessed. I spent a lot of time on investigating the root cause of the bugs and prioritizing the severity, and that's why it took more time than I expected.
+This website is just like a fascinating puzzle game and it makes QAs (especially me) obsessed. I spent a lot of time investigating the root cause of the bugs and prioritizing the severity, and that's why it took more time than I expected.
 ### Bug #1
 #### Title: On the model page, the Author column will display empty value when the number of comment reaching 100 
 #### Description
