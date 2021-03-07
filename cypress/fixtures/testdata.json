@@ -5,7 +5,7 @@
     "lastname":"TestLastName",
     "address": "123 Park Ave",
     "age": "35",
-    "gender": "Mail",
+    "gender": "Male",
     "hobby": "Working",
     "phone": "091234567",
     "oauth_endpoint": "https://k51qryqov3.execute-api.ap-southeast-2.amazonaws.com/prod/oauth/token",
