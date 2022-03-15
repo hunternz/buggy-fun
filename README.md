@@ -29,7 +29,7 @@ npx cypress verify
 ```
 ## Run Cypress tests and check result
 ### About the tests
-* There 14 test cases that cover 5 major functions which are
+* There are 14 test cases that cover 5 major functions which are
   - Login
   - Logout
   - Register user
